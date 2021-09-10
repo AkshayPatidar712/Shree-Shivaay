@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=i)o&ph_o&m7f!8*v!4sg-0ev9_wn8qej-oo2a)d_=i**4^abp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'git.heroku.com/shivay-ksk.git']
 
 
 # Application definition
