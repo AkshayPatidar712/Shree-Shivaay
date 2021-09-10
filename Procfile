@@ -1,0 +1,1 @@
+web: gunicorn shivay.wsgi
